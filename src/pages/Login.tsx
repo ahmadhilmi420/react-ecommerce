@@ -3,12 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import LoginForm from "./LoginForm";
 
 
-const getAuth = async () => {
-  const response = await fetch(`${URL}/login`);
-  const result = await response.json();
-  console.log("login result", result);
-};
-
 const Login: React.FC = () => {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");

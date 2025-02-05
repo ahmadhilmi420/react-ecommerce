@@ -20,7 +20,7 @@ const getLinkClass = (path: string) => {
 };
 
 return (
-    <nav className="bg-gray-900 border-b border-gray-800">
+    <nav className="bg-gray-600 border-b-4 border-gray-800 rounded-xl">
     <div className="container mx-auto px-4">
         <div className="flex items-center h-16 justify-between">
 
@@ -48,7 +48,7 @@ return (
             </button>
             ) : (
               // <Link to="/login" className={getLinkClass("/login")}>Login</Link>
-            <button onClick={() => navigate("/auth/login")}>Login</button>
+            <button className="bg-sky-800" onClick={() => navigate("/auth/login")}>Login</button>
             )}
             
         </div>

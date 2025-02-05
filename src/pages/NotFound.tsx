@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import pagenotfound from "../assets/404.png"
 
 function NotFound() {

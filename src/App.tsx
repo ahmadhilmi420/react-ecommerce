@@ -62,7 +62,7 @@ function App() {
   }, []);
 
 
-  function handleClick(arg0: number): void {
+  function handleClick(_arg0: number): void {
     throw new Error('Function not implemented.');
   }
 
